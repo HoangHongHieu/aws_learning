@@ -35,6 +35,6 @@ phases:
             - echo "We are currently on post_build phase"
             - echo "post_build phase activity is completed. Moving to Artifacts Phase"
 
-# artifacts:
-#     files:
-#     - 'buildspec.yml'
+artifacts:
+    files:
+    - '**/*'
